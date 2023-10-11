@@ -1,0 +1,639 @@
+/*le corps total*//*le corps total*//*le corps total*//*le corps total*//*le corps total*/
+/*le corps total*//*le corps total*//*le corps total*//*le corps total*//*le corps total*/
+/*le corps total*//*le corps total*//*le corps total*//*le corps total*//*le corps total*/
+.App {
+  background-color: rgb(118, 133, 132);
+  background-image:url(../public/residences.jpg);
+  background-size:85rem;
+  background-repeat:no-repeat;
+  height:42.1rem;
+  padding-bottom:1rem;
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content:center;
+  
+}
+
+/*page d'accueil*//*page d'accueil*//*page d'accueil*//*page d'accueil*//*page d'accueil*/
+
+/*boites gauche*//*boites gauche*//*boites gauche*/
+/*boites gauche*//*boites gauche*//*boites gauche*/
+.accueil{
+  display:flex;
+  flex-direction:row;
+  align-items: center;
+  justify-content:center;
+  width:40rem;
+  
+}
+
+.boites{
+  display:flex;
+  flex-direction:column;
+  align-items:start;
+  justify-content:center;
+  justify-content:space-between;
+  height:32rem;
+
+
+}
+.boite_gauche{
+  display:flex;
+  flex-direction:column;
+  align-items: start;
+  justify-content:center;
+  justify-content:space-between;
+  background-color: #777c85;
+  color: white;
+  border-radius:2rem;
+  height:13rem;
+  width:13rem;
+  padding-left:20px;
+  padding-top:20px;
+  padding-bottom:20px;;
+  opacity:80%;
+
+}
+.ligne{
+  display:flex;
+  flex-direction:row;
+  align-items: start;
+  justify-content:center;
+  justify-content:space-between;
+  width:10rem;
+  
+}
+
+.lignes{
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content:start;
+}
+.logo{
+  width:15px;
+}
+
+.options{
+  background-color: #b1b7c2;
+  border-radius:50rem;
+  height:11px;
+  width:20px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding-bottom:10px;
+
+}
+
+.menu_gauche{
+  margin-left:10px;
+  font-size:12px;
+  opacity:70%;
+}
+.facebook{
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size:20px;
+   margin-left:2px;
+
+}
+.gaming_gauches{
+
+  border-radius:8px;
+  width:180px;
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content:center;
+  justify-content: space-between;
+  height:4rem;
+  background-color: #7e8691;
+  padding-left:6px;
+  padding-right:6px;
+  
+
+}
+.jeux{
+  height:40px;
+  width: 40x;
+  border-radius:8px;
+}
+.theme{
+ font-size:11px;
+ font-weight: bolder;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.themes{
+  background-color:rgb(74, 137, 233);
+  width:37px;
+  text-align: center;
+  border-radius:10px;
+  font-size:9px;
+  
+}
+.jeu_detail{
+  display:flex;
+  flex-direction:column;
+  align-items:start;
+  justify-content:center;
+  justify-content: space-between;
+  font-size:10px;
+  width:192px;
+  margin-left:5px;
+
+}
+.fleche{
+  background-color: #b1b7c2;
+  border-radius:50rem;
+  display:flex;
+  flex-direction:row;
+  justify-content: center;
+  align-items: center;
+  height:15px;
+  width:15px;
+  opacity:80%;
+}
+
+/*boites centre*//*boites centre*//*boites centre*/
+/*boites centre*//*boites centre*//*boites centre*/
+
+.image_produire{
+width:5.5rem;
+height:8rem;
+border-radius:10px;
+}
+
+.cadre_image1{
+  width:5rem;
+  height:8rem;
+  border-radius:10px;
+  background-image:url(../public/tenu.webp);
+  background-repeat:no-repeat;
+  background-size:80px;
+  background-color:rgb(51, 49, 49);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+}
+.ajouter{
+  background-color:rgb(129, 129, 245);
+  color: white;
+  width:1.5rem;
+  height:1.5rem;
+  border-radius:50rem;
+  font-size:1rem;
+  font-weight:bolder;
+  margin-bottom:17px;
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+}
+.storie{
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content:start;
+  justify-content: space-between;
+  border-radius:10px;
+  margin-top:10px;
+  margin-bottom: 10px;
+  margin-left: 17px;
+  margin-right: 10px;
+  width:31rem;
+  display: none;
+}
+
+.actualité{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  justify-content: space-between;
+  background-color:gray;
+  border-radius:10px;
+  width:30rem;
+  padding-right:10px;
+  margin-left:10px;
+
+}
+.actu_cadre{
+  display:flex;
+  flex-direction:column;
+  align-items:start;
+  justify-content:center;
+  justify-content: space-between;
+  background-color:rgb(77, 73, 73);
+  border-radius:10px;
+  margin-top:10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  height:8.3rem;
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-right:10px;
+
+}
+.profiles{
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content:center;
+  padding-left:10px;
+
+}
+.photo_profile{
+ height:30px;
+ width:30px;
+border-radius:50rem;
+}
+.profile_detail{
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content:center;
+  justify-content:space-between;
+  margin-left: 10px;
+  width:25rem;
+}
+.temps_profile{
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content:center;
+  font-size:15px;
+}
+.satus{
+  margin-left: 10px;
+  color: white;
+  opacity:80%;
+  font-size: 13px;
+}
+.nom_profile{
+  font-size:15px;
+  
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+  color: white;
+}
+.reactions{
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content:center;
+  justify-content:space-between;
+  padding-left:10px;
+  width: 26rem;
+  margin-top:3px;
+}
+.cadre_reaction{
+  display:flex;
+  flex-direction:row;
+  align-items:start;
+  justify-content:center;
+  justify-content:space-between;
+  padding-left:10px;
+}
+.emojie{
+display:flex;
+flex-direction: row;
+align-items: start;
+justify-content: center;
+justify-content: space-between;
+width:27rem;
+
+}
+
+
+.like{
+  background-color:rgb(34, 94, 185);
+  width:90px;
+  height: 23px;
+  text-align: center;
+  border-radius:10px;
+  font-size:15px;
+}
+.bouttons{
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content:center;
+  color: white;
+
+}
+.logo_emojie{
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content:start;
+  margin-left:10px;
+
+}
+
+
+
+
+
+
+/*boites droite*//*boites droite*//*boites droite*/
+/*boites droite*//*boites droite*//*boites droite*/
+.boite_droit{
+ background-color:#777c85;
+ border-radius:1rem;
+ height:50rem;
+ display:flex;
+ flex-direction:column;
+ justify-content: space-between;
+ margin-left:10px;
+padding-left:10px;
+padding-right: 10px;
+padding-top: 10px;
+padding-bottom: 10px;
+opacity:80%;
+
+}
+
+.profile_detail2{
+
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content:center;
+  justify-content:space-between;
+  margin-left: 10px;
+  width:11rem;
+}
+.page{
+  display:flex;
+  flex-direction:column;
+  align-items:start;
+  justify-content:center;
+  color: white;
+  background-color:rgb(51, 49, 49);
+  padding-left:10px;
+  padding-top:10px;
+  padding-bottom:10px;
+  margin-top:10px;
+  border-radius:1rem;
+
+}
+.btn_droit{
+display: flex;
+flex-direction: row;
+align-items:end;
+justify-content: center;
+
+}
+.espace{
+  margin-right:10px;
+  background-color: #b1b7c2;
+  border-radius:50rem;
+  display:flex;
+  flex-direction:row;
+  justify-content: center;
+  align-items: center;
+  height:25px;
+  width:25px;
+}
+.espaces{
+  margin-left:10px;
+  color:white;
+}
+
+.contacts{color: white;}
+
+.img_birth{
+
+  width:10rem;
+  height:5rem;
+  border-radius: 10px;
+  margin-top:10px;
+}
+.contact_birth{
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+  justify-content: center;
+  justify-content:space-between;
+  width:15rem;
+}
+.contact{
+  display: flex;
+  flex-direction:column;
+  align-items:start;
+  justify-content: center;
+  justify-content:space-between;
+
+}
+.your_page{
+  margin-left:10px;
+  font-size:15px;
+  color: #b1b7c2;
+}
+.figma{font-size:15px;
+  color: #b1b7c2;}
+
+.cardre_birth{background-color:rgb(51, 49, 49);
+  padding-left:10px;
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-right: 10px;
+  margin-top:10px;
+  border-radius:1rem;
+  color:white;
+  font-size:13px;
+}
+
+/*les annimations*//*les annimations*//*les annimations*//*les annimations*//*les annimations*/
+/*les annimations*//*les annimations*//*les annimations*//*les annimations*//*les annimations*/
+
+.annimation_texte{
+  cursor: pointer;
+  color:black;
+  }
+.annimation_texte:hover{
+cursor: pointer;
+color:white;
+}
+
+.annimation_logo:hover{
+  width:16px;
+  cursor: pointer;
+}
+.options:hover{
+  background-color: #1e1f20;
+  border-radius:50rem;
+  height:11px;
+  width:20px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding-bottom:10px;
+  cursor: pointer;
+}
+.jeux:hover{
+  border: 1px solid rgb(120, 120, 245);
+  cursor: pointer;
+}
+.gaming_gauches:hover{
+  background-color:black;
+  cursor: pointer;
+}
+.ajouter_storie:hover{
+  border: 1px solid rgb(175, 175, 248);
+  cursor: pointer;
+}
+.storie_partage:hover{
+  border: 1px solid rgb(175, 175, 248);
+  cursor: pointer;
+
+}
+.photo_profile:hover{
+ cursor: pointer;
+ border: 1px solid rgb(175, 175, 248);
+}
+
+
+.ajouter_file{
+  width:20px;
+  height:20px;
+  border-radius:50rem;
+  position: relative;
+  bottom:-122px;
+  left:46px;
+  opacity:9%;
+  cursor: pointer;
+
+}
+
+.action_aimer{
+ display:none;
+  
+}
+.likeaction_aimer{
+ display:none;
+}
+.action_aimer2{
+ display: block;
+
+}
+
+button{
+  border: 1px solid rgb(108, 108, 223);
+}
+.envoyerC{
+  width:35px;
+  font-size:7px;
+  position: relative;
+  left:12.5rem;
+  display:none;
+}
+.case_commantaire{
+  width:75px;
+  height:9px;
+  position: relative;
+  left:12.2rem;
+  border-radius:2px;
+  border:1px solid gray;
+ display:none;
+
+}
+.commente{
+  display:block;
+}
+
+.annimation_boites{
+
+  display: none;
+}
+
+.annimation_boites2{
+
+  display: none;
+}
+
+
+
+.annimation_boites0{
+  display:flex;
+}
+.annimation_boites01{
+
+  display:block;
+ 
+}
+
+
+
+.logoanime{
+  
+  height:30px;
+  width: 30px;
+  border-radius:50rem;
+}
+
+.btnposition{
+  height:20px;
+  width: 20px;
+  border-radius:50rem;
+  margin-right:39rem;
+  margin-bottom:1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.logoanime:hover{
+  border:2px solid rgb(167, 167, 245);
+}
+.btnposition:hover{
+  border:2px solid rgb(167, 167, 245);
+}
+
+
+
+
+
+
+
+
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
